@@ -1,0 +1,953 @@
+
+[Target File]
+D:\gINT Software\Haley & Aldrich\20230831\example log.gpj
+
+[Source File]
+D:\gint\2014-traditional.csv
+
+
+
+ATTB READINGS,<<OMIT>>
+PointID,
+Depth,
+Reading,
+WC_Wt_Wet,
+WC_Wt_Dry,
+WC_Wt_Tare,
+Water_Content,
+Number_Blows,
+Cone_Pen_Initial,
+Cone_Pen_Final,
+
+
+ATTERBERG,<<OMIT>>
+PointID,
+Depth,
+Liquid_Limit,
+Plastic_Limit,
+Organic,
+Non_Plastic,
+
+
+COMP READINGS,<<OMIT>>
+PointID,
+Depth,
+Reading,
+Wt_Soil_Mold,
+WC_Wt_Wet,
+WC_Wt_Dry,
+WC_Wt_Tare,
+Water_Content,
+Wet_Density,
+Dry_Density,
+
+
+COMPACTION,<<OMIT>>
+PointID,
+Depth,
+Max_Dry_Density,
+Opt_Moisture_Content,
+Method,
+Mold_Volume,
+Volume_Units,
+Mold_Weight,
+Weight_Units,
+Notes,
+Oversize Limit,
+Bulk SG Oversized,
+Water Content Oversized,
+Do Not Calc Max Opt,
+
+
+CONSOL READINGS,<<OMIT>>
+PointID,
+Depth,
+Reading,
+Stress,
+Cummulative_Deflection,
+Strain,
+T50,
+T90,
+Cv50,
+Cv90,
+
+
+CONSOLIDATION,<<OMIT>>
+PointID,
+Depth,
+Deflection_Units,
+Diameter,
+Height,
+Wet_Density,
+Dry_Density,
+Water_Content,
+Wt_Spec_Tare,
+Wt_Tare,
+WC_Wt_Wet,
+WC_Wt_Dry,
+WC_Wt_Tare,
+Dry_Density_After,
+Water_Content_After,
+P0,
+Pmax,
+Cr,
+Cc,
+Cv50_Typical,
+Cv90_Typical,
+Note_1,
+Note_2,
+
+
+CPT,<<OMIT>>
+PointID,
+Probe ID,
+Cone Diameter,
+Penetrometer Type,
+Pore Pressure Transducer Location,
+Max qt Scale Override,
+Max FR Scale Override,
+Sampled Borehole,
+
+
+CPT DATA,<<OMIT>>
+PointID,
+Depth,
+Qc,
+Fs,
+u2,
+qt,
+Rf,
+SBT,
+SPT,
+Friction Angle,
+Es,
+Vs,
+
+
+CPT REPORT CONFIGURATION,<<OMIT>>
+Max fs Scale Override,
+Max qt Scale Override,
+Max FR Scale Override,
+
+
+DIRECT SHEAR,<<OMIT>>
+PointID,
+Depth,
+Ring_Area,
+Ring_Ht,
+Cohesion_Calc,
+Friction_Angle_Calc,
+Cohesion_Assigned,
+Friction_Angle_Assigned,
+Wet_Density,
+Dry_Density,
+Water_Content,
+Soaked,
+Notes,
+
+
+DISCONTINUITIES,Discontinuities
+PointID,
+Depth,
+Discontinuity Number,
+Bottom,<<Discontinuities.Bottom Depth>>
+Type,
+Dip,
+Primary Fracture Spacing,
+Secondary Fracture Spacing,
+Roughness,
+Infilling Material,<<Discontinuities.Infilling>>
+Infilling Primary Weathering,
+Infilling Secondary Weathering,
+Openness,<<Discontinuities.Openness>>
+Comments,<<Discontinuities.Comments>>
+
+
+DRIVE PROBE,<<OMIT>>
+PointID,
+Depth,
+DriveProbeCount,
+
+
+DSHR READINGS,<<OMIT>>
+PointID,
+Depth,
+Reading,
+Failure_Stress,
+Wet_Density,
+Dry_Density,
+Water_Content,
+Wt_Spec_Tare,
+Wt_Tare,
+WC_Wt_Wet,
+WC_Wt_Dry,
+WC_Wt_Tare,
+Not_Used_In_Calc,
+
+
+FALL HEAD K,<<OMIT>>
+PointID,
+Depth,
+K_Assigned,
+K_Calculated,
+K_Units_Fac,
+Initial_Head,
+Temperature_Units,
+Burette_Area,
+Diameter,
+Height,
+Change_In_Ht,
+Wt_Spec_Tare,
+Wt_Tare,
+WC_Wt_Wet_Before,
+WC_Wt_Dry_Before,
+WC_Wt_Tare_Before,
+Water_Content_Before,
+Wet_Density_Before,
+Dry_Density_Before,
+WC_Wt_Wet_After,
+WC_Wt_Dry_After,
+WC_Wt_Tare_After,
+Water_Content_After,
+Wet_Density_After,
+Dry_Density_After,
+Time_Units,
+Chamber_Pressure,
+Back_Pressure,
+Fluid_Used,
+Note_1,
+Note_2,
+Note_3,
+
+
+FHK READINGS,<<OMIT>>
+PointID,
+Depth,
+Reading,
+Head,
+Temperature,
+Permeability,
+
+
+FINE SG,<<OMIT>>
+PointID,
+Depth,
+Specific_Gravity,
+Readings_Temperature_Units,
+Notes,
+
+
+FINE SG READINGS,<<OMIT>>
+PointID,
+Depth,
+Reading,
+Wt_Bottle_Water,
+Wt_Bottle_Water_Soil,
+Wt_Dry_Soil_Tare,
+Wt_Tare,
+Temperature,
+Specific_Gravity,
+
+
+GINT_ALIGNMENTS,<<OMIT>>
+AlignID,
+Description,
+Initial_Station,
+Do_not_display_on_Site_Maps,
+Line_Thickness_in_inches,
+Alignment_Line_Type,
+Alignment_Line_Thickness,
+Alignment_Line_Color,
+Z1_Description,
+Z1_Line_Type,
+Z1_Line_Thickness,
+Z1_Line_Color,
+Z2_Description,
+Z2_Line_Type,
+Z2_Line_Thickness,
+Z2_Line_Color,
+Z3_Description,
+Z3_Line_Type,
+Z3_Line_Thickness,
+Z3_Line_Color,
+
+
+GINT_ALIGNMENT_COORDS,<<OMIT>>
+AlignID,
+GintSequence,
+East,
+North,
+Station,
+Z1,
+Z2,
+Z3,
+
+
+HYD READINGS,<<OMIT>>
+PointID,
+Depth,
+Reading,
+Time,
+Hydrometer_Reading,
+Temperature,
+Particle_Size,
+Percent_Finer,
+
+
+HYDROMETER,<<OMIT>>
+PointID,
+Depth,
+Wt_Dry_Specimen,
+Percent_Of_Total,
+Specific_Gravity,
+Temperature_Units_Test,
+HydrometerID,
+Type,
+Temperature_Units_Calibration,
+Calibration_Intercept,
+Calibration_Slope,
+Calibration_2ndOrderTerm,
+
+
+LAB SPECIMEN,<<OMIT>>
+PointID,
+Depth,
+Sample No,
+Description,
+USCS,
+Remarks,
+Specific_Gravity,
+
+
+LITHOLOGY,Soil Stratigraphy
+PointID,
+Depth,
+Bottom,<<Soil Stratigraphy.Bottom Depth>>
+Graphic_USCS,"<<FirstData(<<Soil Stratigraphy.USCS>>,<<Soil Stratigraphy.Graphic>>)>>"
+GeologicUnit,<<Omit>>
+Line Type,<<User System Data.PLOG - Get Soil LineType>>
+
+
+LITHOLOGY,Rock Stratigraphy
+PointID,
+Depth,
+Bottom,<<Rock Stratigraphy.Bottom Depth>>
+Graphic_USCS,<<User System Data.PLOG - Get Rock Graphic>>
+GeologicUnit,<<Omit>>
+Line Type,<<User System Data.PLOG - Get Rock LineType>>
+
+
+ORGANIC CONTENT,<<OMIT>>
+PointID,
+Depth,
+OC,
+
+
+POINT,Point
+PointID,
+Hole Type,<<Point.Boring Type>>
+Status,<<Point.Status>>
+Date Started,"<<Format(<<Point.Start Date/Time>>,""MM/DD/YYYY"")>>"
+Date Completed,"<<Format(<<Point.Termination Date/Time>>,""MM/DD/YYYY"")>>"
+HoleDepth,<<User System Data.PLOG - Determine Hole Depth>>
+Refusal Depth,<<Point.Refusal Depth>>
+RefusalNote,<<Point.Refusal Remarks>>
+Logged By,"<<ListBuildSepTrim("". "",<<Left(<<Point.Logger First Name>>,1)>>,<<Point.Logger Last Name>>)>>"
+Checked By,<<Omit>>
+Drilling Contractor,<<Point.Drilling Company>>
+Drill Crew,"<<ListBuildSepTrim("". "",<<Left(<<Point.Driller First Name>>,1)>>,<<Point.Driller Last Name>>)>>"
+Drilling Method,<<Point.Drilling Method>>
+Coring Method,<<Point.Coring Method>>
+Rig Model,<<Point.Drill Rig Type/Size>>
+Rig Type,<<Point.Accuracy>>
+Hammer Weight,"<<GetListItem(<<Point.SPT Method>>,"","",2)>>"
+Hammer Drop Height,"<<GetListItem(<<Point.SPT Method>>,"","",3)>>"
+Hammer Efficiency,<<Omit>>
+HE Estimate,<<Omit>>
+Hammer Type,"<<GetListItem(<<Point.SPT Method>>,"","",1)>>"
+PID Model,<<Point.CF8>>
+Hole Diameter,<<Point.Diameter>>
+TP Length,<<Point.Test Pit Length>>
+TP Width,<<Point.Test Pit Width>>
+Top Of Rock,<<Point.Rock Depth>>
+Figure Number,<<Omit>>
+Notes,<<Point.General Remarks>>
+Depth Log Page,<<Omit>>
+Plunge,<<Point.Plunge>>
+North,<<Point.North>>
+East,<<Point.East>>
+GintCoordinateLatitude,<<Point.Latitude>>
+GintCoordinateLongitude,<<Point.Longitude>>
+Location,<<Omit>>
+Horizontal Datum,<<Omit>>
+Elevation,<<Point.Elevation>>
+Vertical Datum,<<Project.Datum Description>>
+GintPointSort,<<Omit>>
+Suppress S-Wave Plot,<<Omit>>
+Log Title,<<Omit>>
+
+
+PROJECT,Project
+Name,<<Project.Project Name>>
+Location,<<Project.Project Location>>
+Client,<<Project.Client>>
+Number,<<Omit>>
+Project Number,<<Project.Project Number>>
+Figure Prefix Logs,<<Omit>>
+Figure Key Sheet,<<Omit>>
+Figure Lab Sum Sheet,<<Omit>>
+Figure Atterberg Results,<<Omit>>
+Figure Grain Size Results,<<Omit>>
+Elevation Datum,<<Project.Datum Description>>
+Depth Log Page,<<Omit>>
+Water_Unit_Wt,<<Omit>>
+Coeff_of_Consol_Factor,<<Omit>>
+GintCoordinateSystem,<<Omit>>
+GintElevationOffset,<<Omit>>
+GintCoordinateUnits,"<<IIF(<<Project.Input Units>>=""E"",Feet,Meters)>>"
+
+
+SAMPLE,SPT Sample
+PointID,<<SPT Sample.PointID>>
+Depth,<<SPT Sample.Depth>>
+Number,<<SPT Sample.Sample Number>>
+Length,<<User System Data.PLOG - Calculate SPT Length>>
+Recovery,"<<Format(<<User System Data.PLOG - Calculate Recovery Length>>,0)>>"
+RQD,<<Omit>>
+Type,<<SPT Sample.Sampler Type>>
+Blows 1st,<<User System Data.PLOG - SPT - Determine Blows 1st>>
+Blows 2nd,<<User System Data.PLOG - SPT - Determine Blows 2nd>>
+Blows 3rd,<<User System Data.PLOG - SPT - Determine Blows 3rd>>
+Blows 4th,<<User System Data.PLOG - SPT - Determine Blows 4th>>
+N-Value,<<User System Data.PLOG - SPT - Calculate N-Value>>
+Blows on Gravel,<<Omit>>
+Blows in Heave,<<Omit>>
+Blows_Per_Foot,<<Omit>>
+Correction_Value,<<Omit>>
+Lab Tests,<<Omit>>
+PID,<<Omit>>
+Sub Sample Break Depth,<<Omit>>
+Sub Sample 1,<<Omit>>
+Sub Sample 2,<<Omit>>
+Sheen,<<Omit>>
+Half Graphic,<<Omit>>
+% Gravel,<<Omit>>
+% Sand,<<Omit>>
+% Fines,<<Omit>>
+Torvane,<<Omit>>
+Torvane Remolded,<<Omit>>
+Pocket Penetrometer,<<Omit>>
+Associated Photo,<<Let(GUID = <<SPT Sample.AssociatedFileGUID>>)>><<User System Data.PLOG - Build Photo File Path>>
+
+
+SAMPLE,Other Sample
+PointID,
+Depth,
+Number,<<Other Sample.Sample Number>>
+Length,<<User System Data.PLOG - Calculate Other Sample Length>>
+Recovery,<<Omit>>
+RQD,<<Omit>>
+Type,<<Other Sample.Sample Type>>
+Blows 1st,<<Omit>>
+Blows 2nd,<<Omit>>
+Blows 3rd,<<Omit>>
+Blows 4th,<<Omit>>
+N-Value,<<Omit>>
+Blows on Gravel,<<Omit>>
+Blows in Heave,<<Omit>>
+Blows_Per_Foot,<<Omit>>
+Correction_Value,<<Omit>>
+Lab Tests,<<Omit>>
+PID,<<Omit>>
+Sub Sample Break Depth,<<Omit>>
+Sub Sample 1,<<Omit>>
+Sub Sample 2,<<Omit>>
+Sheen,<<Omit>>
+Half Graphic,<<Omit>>
+% Gravel,<<Omit>>
+% Sand,<<Omit>>
+% Fines,<<Omit>>
+Torvane,<<Omit>>
+Torvane Remolded,<<Omit>>
+Pocket Penetrometer,<<Omit>>
+Associated Photo,<<Let(GUID = <<Other Sample.AssociatedFileGUID>>)>><<User System Data.PLOG - Build Photo File Path>>
+
+
+SAMPLE,Thin Wall Sample
+PointID,
+Depth,
+Number,<<Thin Wall Sample.Sample Number>>
+Length,<<User System Data.PLOG - Calculate Thin Wall Length>>
+Recovery,"<<Format(<<User System Data.PLOG - Calculate Thin Wall Recovery Length>>,0)>>"
+RQD,<<Omit>>
+Type,<<Thin Wall Sample.Sampler Type>>
+Blows 1st,<<Omit>>
+Blows 2nd,<<Omit>>
+Blows 3rd,<<Omit>>
+Blows 4th,<<Omit>>
+N-Value,<<Omit>>
+Blows on Gravel,<<Omit>>
+Blows in Heave,<<Omit>>
+Blows_Per_Foot,<<Omit>>
+Correction_Value,<<Omit>>
+Lab Tests,<<Omit>>
+PID,<<Omit>>
+Sub Sample Break Depth,<<Omit>>
+Sub Sample 1,<<Omit>>
+Sub Sample 2,<<Omit>>
+Sheen,<<Omit>>
+Half Graphic,<<Omit>>
+% Gravel,<<Omit>>
+% Sand,<<Omit>>
+% Fines,<<Omit>>
+Torvane,<<Omit>>
+Torvane Remolded,<<Omit>>
+Pocket Penetrometer,<<Omit>>
+Associated Photo,<<Let(GUID = <<Thin Wall Sample.AssociatedFileGUID>>)>><<User System Data.PLOG - Build Photo File Path>>
+
+
+SAMPLE,Rock Sample
+PointID,
+Depth,
+Number,<<Rock Sample.Core Number>>
+Length,<<User System Data.PLOG - Calculate Rock Sample Length>>
+Recovery,"<<Format(<<User System Data.PLOG - Calculate Rock Sample Recovery Length>>,0)>>"
+RQD,<<User System Data.PLOG - Calculate RQD Length>>
+Type,"""CORE"""
+Blows 1st,<<Omit>>
+Blows 2nd,<<Omit>>
+Blows 3rd,<<Omit>>
+Blows 4th,<<Omit>>
+N-Value,<<Omit>>
+Blows on Gravel,<<Omit>>
+Blows in Heave,<<Omit>>
+Blows_Per_Foot,<<Omit>>
+Correction_Value,<<Omit>>
+Lab Tests,<<Omit>>
+PID,<<Omit>>
+Sub Sample Break Depth,<<Omit>>
+Sub Sample 1,<<Omit>>
+Sub Sample 2,<<Omit>>
+Sheen,<<Omit>>
+Half Graphic,<<Omit>>
+% Gravel,<<Omit>>
+% Sand,<<Omit>>
+% Fines,<<Omit>>
+Torvane,<<Omit>>
+Torvane Remolded,<<Omit>>
+Pocket Penetrometer,<<Omit>>
+Associated Photo,<<Let(GUID = <<Rock Sample.AssociatedFileGUID>>)>><<User System Data.PLOG - Build Photo File Path>>
+
+
+SAMPLE,Environmental Data
+PointID,"<<IIF(<<Environmental Data.Test Type>>=""PID"",<<Environmental Data.PointID>>,"""")>>"
+Depth,
+Number,<<Omit>>
+Length,<<Omit>>
+Recovery,<<Omit>>
+RQD,<<Omit>>
+Type,<<Omit>>
+Blows 1st,<<Omit>>
+Blows 2nd,<<Omit>>
+Blows 3rd,<<Omit>>
+Blows 4th,<<Omit>>
+N-Value,<<Omit>>
+Blows on Gravel,<<Omit>>
+Blows in Heave,<<Omit>>
+Blows_Per_Foot,<<Omit>>
+Correction_Value,<<Omit>>
+Lab Tests,<<Omit>>
+PID,<<Environmental Data.Value>>
+Sub Sample Break Depth,<<Omit>>
+Sub Sample 1,<<Omit>>
+Sub Sample 2,<<Omit>>
+Sheen,<<Omit>>
+Half Graphic,<<Omit>>
+% Gravel,<<Omit>>
+% Sand,<<Omit>>
+% Fines,<<Omit>>
+Torvane,<<Omit>>
+Torvane Remolded,<<Omit>>
+Pocket Penetrometer,<<Omit>>
+Associated Photo,<<Omit>>
+
+
+SAMPLE,Undrained Strength
+PointID,
+Depth,
+Number,<<Omit>>
+Length,<<Omit>>
+Recovery,<<Omit>>
+RQD,<<Omit>>
+Type,<<Omit>>
+Blows 1st,<<Omit>>
+Blows 2nd,<<Omit>>
+Blows 3rd,<<Omit>>
+Blows 4th,<<Omit>>
+N-Value,<<Omit>>
+Blows on Gravel,<<Omit>>
+Blows in Heave,<<Omit>>
+Blows_Per_Foot,<<Omit>>
+Correction_Value,<<Omit>>
+Lab Tests,<<Omit>>
+PID,<<Omit>>
+Sub Sample Break Depth,<<Omit>>
+Sub Sample 1,<<Omit>>
+Sub Sample 2,<<Omit>>
+Sheen,<<Omit>>
+Half Graphic,<<Omit>>
+% Gravel,<<Omit>>
+% Sand,<<Omit>>
+% Fines,<<Omit>>
+Torvane,<<Undrained Strength.Vane Peak>>
+Torvane Remolded,<<Undrained Strength.Vane Remolded>>
+Pocket Penetrometer,<<Undrained Strength.Pocket Pen>>
+Associated Photo,<<Omit>>
+
+
+SHEAR WAVE VELOCITY,<<OMIT>>
+PointID,
+Depth,
+Ref,
+CalcDepth,
+S-Wave,
+P-Wave,
+
+
+SIEVE,<<OMIT>>
+PointID,
+Depth,
+Wt_Total_Spec,
+Wt_Passing_Split_Sieve,
+Wt_Fines_Tested,
+Size_Split_Sieve,
+Weighing_Method,
+Wt_Sieving_Tare_Coarse,
+Wt_Sieving_Tare_Fine,
+WC_Wt_Wet_Coarse,
+WC_Wt_Dry_Coarse,
+WC_Wt_Tare_Coarse,
+Water_Content_Coarse,
+WC_Wt_Wet_Fine,
+WC_Wt_Dry_Fine,
+WC_Wt_Tare_Fine,
+Water_Content_Fine,
+Coarse_Sieved_Wet,
+Fines Content,
+
+
+SOIL SAMPLE DESCRIPTION,Soil Sample Description
+PointID,
+SAMPLE_Depth,<<Soil Sample Description.Sample Depth>>
+Depth,<<Soil Sample Description.Depth>>
+Bottom,<<Soil Sample Description.Bottom Depth>>
+Primary Major Fill Material,<<Soil Sample Description.CF1>>
+Percentage Primary Major Fill Material,<<Soil Sample Description.CF2>>
+Secondary Major Fill Material,<<Soil Sample Description.CF3>>
+Percentage Secondary Major Fill Material,<<Soil Sample Description.CF4>>
+Fill,<<Soil Sample Description.Fill>>
+Primary Consistency,<<Soil Sample Description.Primary Consistency>>
+Secondary Consistency,<<Soil Sample Description.Secondary Consistency>>
+Primary Color1,<<Soil Sample Description.Primary Color1>>
+Color Conjunction,<<Soil Sample Description.Color Conjunction>>
+Primary Color2,<<Soil Sample Description.Primary Color2>>
+USCS,<<Soil Sample Description.USCS>>
+USCS Group Name,<<Soil Sample Description.USCS Group Name>>
+Minor Percent1,<<Soil Sample Description.Minor Percent1>>
+Minor Constituent1,<<Soil Sample Description.Minor Constituent1>>
+Minor Percent2,<<Soil Sample Description.Minor Percent2>>
+Minor Constituent2,<<Soil Sample Description.Minor Constituent2>>
+Minor Percent3,<<Soil Sample Description.Minor Percent3>>
+Minor Constituent3,<<Soil Sample Description.Minor Constituent3>>
+Max Grain Size,<<Soil Sample Description.Max Grain Size>>
+Comments,<<Soil Sample Description.Comments>>
+Percent Gravel,<<Soil Sample Description.CF5>>
+Percent Gravel Fine,<<Soil Sample Description.CF6>>
+Percent Sand,<<Soil Sample Description.CF7>>
+Percent Sand Med,<<Soil Sample Description.CF8>>
+Percent Sand Fine,<<Soil Sample Description.CF9>>
+Percent Fines,<<Soil Sample Description.CF10>>
+Primary Moisture,<<Soil Sample Description.Primary Moisture>>
+Secondary Moisture,<<Soil Sample Description.Secondary Moisture>>
+Structure,<<Soil Sample Description.Structure>>
+Structure Frequency,<<Soil Sample Description.Discontinuity Spacing>>
+Structure Makeup,<<Soil Sample Description.Angularity>>
+Odor,<<Soil Sample Description.Odor>>
+Cementation,<<Soil Sample Description.Cementation>>
+Bonding,<<Soil Sample Description.Bedding Thickness>>
+Sample Description,"<<IIf(<<Soil Sample Description.CF2>> >=50,<<ListBuildSepTrim("" "",<<ComponentDesc([DESCRIPTION SAMPLE FILL MATERIAL])>>,<<ComponentDesc([DESCRIPTION SOIL SAMPLE])>>)>>,<<ComponentDesc([DESCRIPTION SOIL SAMPLE],true,false)>>)>>"
+Angularity Sand,<<Soil Sample Description.Angularity Sand>>
+Angularity Gravel,<<Soil Sample Description.Angularity Gravel>>
+Plasticity,<<Soil Sample Description.Plasticity>>
+Dilatancy,<<Soil Sample Description.Dilatancy>>
+Toughness,<<Soil Sample Description.Toughness>>
+Dry Strength,<<Soil Sample Description.Dry Strength>>
+
+
+STRATA DETAILS,Strata Details
+PointID,
+Depth,
+Bottom Depth,<<Strata Details.Bottom Depth>>
+Description,<<UCase1st(<<Strata Details.Description>>)>>
+
+
+SV READINGS,<<OMIT>>
+PointID,
+Depth,
+Reading,
+Soil_Tare,
+Percent_Finer,
+Name,
+
+
+UNC READINGS,<<OMIT>>
+PointID,
+Depth,
+Reading,
+Load_Reading,
+Deflection_Reading,
+Stress,
+Strain,
+
+
+UNCONF COMPR,<<OMIT>>
+PointID,
+Depth,
+Strength,
+Strain_At_Failure,
+Load_Ring,
+Slope_Initial,
+Slope_Break,
+Slope_2ndary,
+Deflection_Units,
+Stress_Area,
+Seating_Correction,
+Diameter,
+Height,
+Wet_Density,
+Dry_Density,
+Water_Content,
+Wt_Spec_Tare,
+Wt_Tare,
+WC_Wt_Wet,
+WC_Wt_Dry,
+WC_Wt_Tare,
+Notes,
+
+
+WATER LEVELS,GWT
+PointID,"<<HasData(<<GWT.Depth>>,<<GWT.PointID>>)>>"
+DateTime,<<GWT.Date/Time>>
+Depth,<<GWT.Depth>>
+Date Time Position,"""Below"""
+ATD,"<<IIF(<<GWT.ItemKey>>=""At time of drilling"",true,false)>>"
+Seepage,<<Omit>>
+VWP1,<<Omit>>
+VWP2,<<Omit>>
+VWP3,<<Omit>>
+VWP,<<Omit>>
+Show on Log,"""True"""
+ShowTime,<<Omit>>
+
+
+WC DENSITY,<<OMIT>>
+PointID,
+Depth,
+WC_Wt_Wet,
+WC_Wt_Dry,
+WC_Wt_Tare,
+Water_Content,
+Diameter,
+Height,
+Wt_Spec_Tare,
+Wt_Tare,
+Wet_Density,
+Dry_Density,
+Wt_Total_Spec,
+
+
+WELL CONSTRUCTION,Monitoring Well Construction
+PointID,<<Monitoring Well Construction.PointID>>
+Depth,<<Monitoring Well Construction.Depth>>
+Bottom,<<Monitoring Well Construction.Bottom Depth>>
+Graphic,<<Monitoring Well Construction.Graphic>>
+Description,<<Monitoring Well Construction.Description>>
+Pointer,<<Omit>>
+
+
+WELL DETAILS,Well Details
+PointID,<<Well Details.PointID>>
+TOC Elevation,<<Well Details.Casing Elevation>>
+Well Monument Type,<<Well Details.CF2>>
+Casing ID,<<Well Details.Inside Diameter>>
+Casing OD,<<Omit>>
+Seal Base Depth,<<Omit>>
+Screen Top Depth,<<Omit>>
+Screen Base Depth,<<Omit>>
+Filter Pack Porosity,<<Omit>>
+Well TD,<<Omit>>
+Temporary Drill Casing Depth,<<Omit>>
+Casing Bottom Elevation,<<Omit>>
+Bottom of Well Elevation,<<Omit>>
+Well Tag,<<Well Details.Well Number>>
+
+
+WELL DEVELOPMENT DATA,<<OMIT>>
+PointID,
+ItemKey,
+DateTime,
+Finish Time,
+Method,
+Water Removed,
+Water Total,
+pH,
+Conductivity,
+Turbidity,
+Temperature,
+Comments,
+No Data,
+
+
+WELL DEVELOPMENT DETAILS,<<OMIT>>
+PointID,
+ItemKey,
+Recorded By,
+Criteria,
+Remarks,
+Subcontractor,
+Weather,
+Air Temperature,
+Temperature Units,
+Conductivity Units,
+Water Depth At Start,
+
+
+WELL PURGE DATA,<<OMIT>>
+PointID,
+ItemKey,
+DateTime,
+Finish Time,
+Water Removed,
+Water Total,
+pH,
+Conductivity,
+Turbidity,
+Temperature,
+Comments,
+No Data,
+
+
+WELL PURGE DETAILS,<<OMIT>>
+PointID,
+ItemKey,
+Date Time,
+Recorded By,
+Purge Hand Pump,
+Purge Submersible Pump,
+Purge Bailer,
+Purge Other,
+Sampling Hand Pump,
+Sampling Submersible Pump,
+Sampling Bailer,
+Sampling Other,
+Criteria,
+Remarks,
+NAPL Depth,
+NAPL Thickness,
+Weather,
+Air Temperature,
+Temperature Units,
+Conductivity Units,
+Subcontractor,
+Analyses,
+Containers,
+Lab,
+Date Shipped,
+VIA,
+Handling,
+
+
+LITHOLOGY ROCK,Rock Stratigraphy
+PointID,
+Depth,
+Rock Type,<<Rock Stratigraphy.Rock Type>>
+SecondaryRockType,<<Rock Stratigraphy.SecondaryRockType>>
+Primary Weathering,
+Secondary Weathering,
+Structure Thickness,
+Structure,
+Color Shade1,
+Secondary Color1,
+Primary Color1,
+Color Shade2,
+Secondary Color2,
+Primary Color2,
+Grain Size,
+Primary Joint Bedding,
+Secondary Joint Bedding,
+Primary Hardness,
+Secondary Hardness,
+Geologic Formation,
+Secondary Structure Thickness,
+Secondary Grain Size,
+Comments,<<Rock Stratigraphy.Comments>>
+Graphic,<<User System Data.PLOG - Get Rock Graphic>>
+Line Type,<<User System Data.PLOG - Get Rock LineType>>
+
+
+LITHOLOGY SOIL,Soil Stratigraphy
+PointID,
+Depth,
+Graphic,<<User System Data.PLOG - Get Soil Graphic>>
+Primary Major Fill Material,<<Soil Stratigraphy.CF1>>
+Percentage Primary Major Fill Material,<<Soil Stratigraphy.CF2>>
+Secondary Major Fill Material,<<Soil Stratigraphy.CF3>>
+Percentage Secondary Major Fill Material,<<Soil Stratigraphy.CF4>>
+Fill,<<Soil Stratigraphy.Fill>>
+Primary Consistency,<<Soil Stratigraphy.Primary Consistency>>
+Secondary Consistency,<<Soil Stratigraphy.Secondary Consistency>>
+Primary Color1,<<Soil Stratigraphy.Primary Color1>>
+Color Conjunction,<<Soil Stratigraphy.Color Conjunction>>
+Primary Color2,<<Soil Stratigraphy.Primary Color2>>
+USCS,<<Soil Stratigraphy.USCS>>
+USCS Group Name,<<Soil Stratigraphy.USCS Group Name>>
+Minor Percent1,<<Soil Stratigraphy.Minor Percent1>>
+Minor Constituent1,<<Soil Stratigraphy.Minor Constituent1>>
+Minor Percent2,<<Soil Stratigraphy.Minor Percent2>>
+Minor Constituent2,<<Soil Stratigraphy.Minor Constituent2>>
+Minor Percent3,<<Soil Stratigraphy.Minor Percent3>>
+Minor Constituent3,<<Soil Stratigraphy.Minor Constituent3>>
+Max Grain Size,<<Soil Stratigraphy.Max Grain Size>>
+Comments,<<Soil Stratigraphy.Comments>>
+Percent Gravel,<<Soil Stratigraphy.CF5>>
+Percent Gravel Fine,<<Soil Stratigraphy.CF6>>
+Percent Sand,<<Soil Stratigraphy.CF7>>
+Percent Sand Med,<<Soil Stratigraphy.CF8>>
+Percent Sand Fine,<<Soil Stratigraphy.CF9>>
+Percent Fines,<<Soil Stratigraphy.CF10>>
+Primary Moisture,<<Soil Stratigraphy.Primary Moisture>>
+Secondary Moisture,<<Soil Stratigraphy.Secondary Moisture>>
+Structure,<<Soil Stratigraphy.Structure>>
+Structure Frequency,<<Soil Stratigraphy.Discontinuity Spacing>>
+Structure Makeup,<<Soil Stratigraphy.Angularity>>
+Odor,<<Soil Stratigraphy.Odor>>
+Cementation,<<Soil Stratigraphy.Cementation>>
+Bonding,<<Soil Stratigraphy.Bedding Thickness>>
+Line Type,<<User System Data.PLOG - Get Soil LineType>>
+Angularity Sand,<<Soil Stratigraphy.Angularity Sand>>
+Angularity Gravel,<<Soil Stratigraphy.Angularity Gravel>>
+
+
+REMARKS,Notes
+PointID,<<Notes.PointID>>
+Depth,<<Notes.Depth>>
+Bottom,<<Notes.Bottom Depth>>
+Description,<<Notes.Notes>>
+
+
+CASING,Casing Diameter
+PointID,
+Depth,<<Casing Diameter.Depth>>
+Casing Inside Diameter,<<Casing Diameter.Diameter>>
+Casing Type,<<Casing Diameter.Type>>
+
